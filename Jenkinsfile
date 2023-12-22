@@ -11,7 +11,7 @@ pipeline {
             steps {
                 echo 'Cloning project codebase...'
                 git branch: 'master', url: 'https://github.com/ola-sammy/devops-fully-automated-infra-main.git'
-                sh 'ls'
+                sh 'ls -al'
             }
         }
         
